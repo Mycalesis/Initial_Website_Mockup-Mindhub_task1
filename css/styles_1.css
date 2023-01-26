@@ -1,7 +1,20 @@
 /* ----------------About MDHL ------------------ */
 *{
-    margin: 0;
+    margin:auto;
 }
+.nav .nav-link {
+    padding-bottom: 55px;
+    display:block;
+    display: grid;
+    padding-inline: 10px;
+}
+
+.barra_de_nav{
+    position: relative;
+    top: 225px;
+    right: 25%;
+}
+
 #titulo_header {
     text-align: initial;
     border-color: azure;
@@ -17,24 +30,12 @@ header #logo {
     justify-content: end;
     position: relative;
     top: 155px;
-    left: 87%;
+    left: 35%;
 }
 
 header {
     background-image: url(../assets/imagenes/design1_image1.jpg );
     padding-bottom: 25px;
-}
-
-.nav .nav-link {
-    padding-bottom: 55px;
-    display:block;
-    display: grid;
-    padding-inline: 10px;
-}
-
-.barra_de_nav{
-    top: 270px;
-    position:absolute;
 }
 
 
@@ -47,18 +48,19 @@ header {
     text-align: center;
 }
 #imagen_1{
-    width: 35%;
+    width: 45%;
     margin-top: 35px;
-    position: absolute;
-    left: 65%;
+    position: relative;
 }
 #info{
-    text-align:justify;
-    display:list-item;
-    margin-top:15px;
+    text-align: justify;
+    display: inherit;
+    margin-top: 15px;
     margin-block-start: 10px;
-    padding-left: 125px;
+    padding-left: 368px;
     text-decoration: none;
     position: relative;
+    bottom: 203px;
+    }
     
-}
+
