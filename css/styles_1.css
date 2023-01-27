@@ -68,6 +68,9 @@ header {
     width: 64%;
     }
     
+p{
+    font-size:20px ;
+}
 /* -------------Fin about MDLH------------- */
 
 /* -----------------Contact------------------- */
@@ -78,8 +81,8 @@ header {
 }
 
 .img2{
-    margin-right: 5px;
     position: relative;
+    width: 50%;
 }
 
 header .contact {
@@ -88,3 +91,24 @@ header .contact {
 }
 
 /* ---------------Fin Contact------------------ */
+
+/* ------------------index------------------------ */
+
+.img1 {
+    margin-right: 5px;
+    position: relative;
+    width: 60%;
+}
+dl, figure {
+    margin-bottom:25px ;
+    padding-left: 155px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+dl{
+    top: 15px;
+    position: relative;
+}
+
+
+/* ----------------fin index------------------ */
