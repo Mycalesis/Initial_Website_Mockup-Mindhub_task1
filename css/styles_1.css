@@ -1,17 +1,23 @@
-/* ----------------About MDHL ------------------ */
-*{
-    margin:auto;
+* {
+    margin: auto;
 }
+
 .nav .nav-link {
     padding-bottom: 55px;
-    display:block;
+    display: block;
     display: grid;
     padding-inline: 10px;
 }
 
-.barra_de_nav{
+.barra_de_nav {
     position: relative;
     top: 70px;
+}
+
+#contact1,
+#index1,
+#about1 {
+    color: rgb(49, 6, 6);
 }
 
 #titulo_header {
@@ -21,7 +27,7 @@
     font-size: 43px;
     padding: 51px;
     position: relative;
-    }
+}
 
 #logo {
     width: 10%;
@@ -42,7 +48,7 @@ header {
     background-color: rgb(8, 7, 7);
     color: white;
     margin-top: 0%;
-    font-family:'Franklin Gothic Medium';
+    font-family: 'Franklin Gothic Medium';
     font-size: 25px;
     text-align: center;
     display: inherit;
@@ -51,13 +57,15 @@ header {
     position: relative;
     bottom: 230px;
 }
-#imagen_1{
+
+#imagen_1 {
     width: 45%;
     margin-top: 35px;
     position: relative;
     left: 110px;
 }
-#info{
+
+#info {
     text-align: justify;
     display: inherit;
     margin-top: 15px;
@@ -67,24 +75,21 @@ header {
     position: relative;
     bottom: 356px;
     width: 64%;
-    }
-    
-p{
-    font-size:20px ;
 }
-/* -------------Fin about MDLH------------- */
 
-/* -----------------Contact------------------- */
+p {
+    font-size: 20px;
+}
+
 .mail {
     margin-bottom: 25px;
     margin-left: 150px;
     position: relative;
 }
 
-.img2{
+.img2 {
     position: relative;
     width: 50%;
-    
 }
 
 header .contact {
@@ -92,26 +97,21 @@ header .contact {
     padding-top: 180px;
 }
 
-/* ---------------Fin Contact------------------ */
-
-/* ------------------index------------------------ */
-
-.img1 {
+.img3 {
     margin-right: 5px;
     position: relative;
     width: 60%;
-    
 }
-dl, figure {
-    margin-bottom:25px ;
+
+dl,
+figure {
+    margin-bottom: 25px;
     padding-left: 50px;
     padding-bottom: 15px;
     font-size: 20px;
 }
-dl{
+
+dl {
     top: 15px;
     position: relative;
 }
-
-
-/* ----------------fin index------------------ */
