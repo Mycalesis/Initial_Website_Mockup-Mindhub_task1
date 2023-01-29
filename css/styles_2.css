@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    
+}
+header {
+    border: 5px solid black;
+    background-image: url( ../assets/imagenes/design1_image1.jpg);
+    padding-bottom:100px;
+    position: relative;
+    top: 58px;
+}
+#titulo_header{
+    position: absolute;
+    bottom: 114px;
+    font-size: 35px;
+}
+.postheader {
+    top: 35px;
+    position: relative;
+}
+.postheader h1 {
+    text-align: center;
+    border: 5px solid black;
+    
+}
+.postheader #logo {
+    width: 25%;
+    position:absolute;
+} 
+#info {
+    width: 50%;
+    transform: translate(60%,10%);
+    font-size: 18px;
+}
+
+#info p {
+    padding-bottom: 10px;
+}
+#imagen_1 {
+    width: 90%;
+    padding-top: 3%;
+}
+.barra_de_nav {
+    transform: translateY(-62px);
+    position: relative;
+    left: 71%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+#contact, #index, #about{
+    margin: 10px;
+    background-color: rgb(93, 93, 197);
+    padding: 7px 14px;
+    border: 2px solid black;
+    color: aliceblue;
+    text-decoration: none;
+}
+#contact1, #index1, #about1 {
+    background-color: rgb(42, 141, 42);
+    padding: 7px 14px;
+    border: 2px solid black;
+    color: aliceblue;
+    text-decoration: none;
+}
