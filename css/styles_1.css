@@ -1,7 +1,7 @@
 * {
     margin: auto;
 }
-
+/* ------------------------NAVBAR--------------------------------------- */
 .nav .nav-link {
     padding-bottom: 55px;
     display: block;
@@ -20,6 +20,8 @@
     color: rgb(49, 6, 6);
 }
 
+/* ------------------------Fin NAVBAR--------------------------------------- */
+/* --------------------------HEADER--------------------------------------- */
 #titulo_header {
     text-align: initial;
     border-color: azure;

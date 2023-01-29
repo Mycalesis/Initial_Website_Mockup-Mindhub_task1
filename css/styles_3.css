@@ -22,6 +22,7 @@ header {
     display:none;
     width: 15px;
 }
+/* informacion de la pagina */
 #info {
     width: 50%;
     transform: translate(60%,10%);
@@ -34,17 +35,18 @@ header {
     left:75px;
     position: relative;
 }
+/* imagenes de cada pagina */
 #imagen_1, .img2, .img3 {
     width: 90%;
     padding-top: 3%;
 }
+/* barra de navegacion */
 .barra_de_nav {
     transform: translateY(-62px);
     position: relative;
     left: 71%;
     width: 25%;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     font-size: 16px;
 }
 #contact, #index, #about{
