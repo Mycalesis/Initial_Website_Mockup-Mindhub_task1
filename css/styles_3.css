@@ -24,32 +24,29 @@ header {
 }
 /* informacion de la pagina */
 #info {
-    width: 50%;
-    transform: translate(60%,10%);
+    width: 70%;
+    transform: translate(22%,10%);
     font-size: 22px;
+    text-align: center;
 }
 #info p {
     padding-bottom: 10px;
 }
-#mp{
-    left:75px;
-    position: relative;
-}
 /* imagenes de cada pagina */
 #imagen_1, .img2, .img3 {
     width: 90%;
-    padding-top: 3%;
+    border: 2px solid #c64832 ;
 }
 /* barra de navegacion */
 .barra_de_nav {
     transform: translateY(-62px);
     position: relative;
-    left: 71%;
-    width: 25%;
+    left: 60%;
+    width: 40%;
     display: inline-block;
     font-size: 16px;
 }
-#contact, #index, #about{
+#contact, #index, #about, #rules, #game_info{
     margin: 5px;
     background-color: #c64832;
     padding: 7px 14px;
@@ -62,9 +59,9 @@ header {
     -moz-box-shadow: 3px 3px 3px rgb(63, 63, 63);
 }
 
-#contact1, #index1, #about1 {
+#contact1, #index1, #about1, #rules1, #game_info1 {
     margin: 5px;
-    background-color:#fef12f;
+    background-color: #fef12f;
     padding: 7px 14px;
     border: 2px solid black;
     border-radius: 25px;
@@ -86,4 +83,25 @@ header {
     position: relative;
     bottom: 18px;
     border: 3px solid #c64832;
+}
+h4, h5{
+    color:#c64832;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    bottom: 75px;
+    position: relative;
+    }
+
+
+#fairplay {
+    width: 30%;
+    position: absolute;
+    transform: translate(-230%,-30%);
+    border: 2px solid #c64832 ;
+}
+
+.title_article, li {
+    padding-bottom: 15px;
 }
