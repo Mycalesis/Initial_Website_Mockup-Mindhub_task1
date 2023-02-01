@@ -105,3 +105,39 @@ article{
 .title_article, li {
     padding-bottom: 15px;
 }
+
+/* ----------table------------- */
+.note{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+th, tr{
+    border: 3px solid #c64832;
+    position:relative;
+}
+th{
+    background-color:#c64832;
+    color:#fef12f
+}
+td {
+    border: 3px solid #c64832;
+}
+
+table ul {  
+    right: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.minicontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
