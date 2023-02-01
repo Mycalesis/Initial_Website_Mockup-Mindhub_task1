@@ -106,6 +106,9 @@ article{
     padding-bottom: 15px;
 }
 
+#ol ul {
+    list-style-type: circle;
+}
 /* ----------table------------- */
 .note{
     display: flex;
