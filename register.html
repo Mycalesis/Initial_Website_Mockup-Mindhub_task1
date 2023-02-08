@@ -38,37 +38,35 @@
                         <form action="showdata.html" method="GET">
                             <div class="personal_information">
                                 <div class="one">
-                                    <label>
-                                        <span>Player's first name:</span>
-                                        <input type="text" name="name" required>
-                                        <span>Last Name:</span>
-                                        <input type="text" name="last_name" required>
-                                    </label>
+                                    <fieldset>
+                                        <label>Player's first name:</label>
+                                        <input type="text" name="name">
+                                        <label>Last Name:</label>
+                                        <input type="text" name="last_name">
+                                    </fieldset>
                                 </div>
-                                <label>
-                                    <span>Street adress:</span>
-                                    <input type="text" name="adress" required>
-                                </label>
+                                <label>Street adress:</label>
+                                    <input type="text" name="adress">
                                 <div class="two">
                                     <label>
                                         <span>City:</span>
                                         <input type="text" name="city">
+                                    </label>
+                                    <label>
                                         <span>Zip code</span>
-                                        <input type="number" name="Zcode" required>
+                                        <input type="number" name="Zcode">
                                     </label>  
                                 </div>    
                                 <div class="three">
-                                    <label>
+                                    <fieldset>
                                         <span>Birth Date(mm/dd/yyyy):</span>
-                                        <input type="date" name="birth_date" required>
-                                    </label>
-                                    <label>
+                                        <input type="date" name="birth_date">
                                         <span>Gender:</span>
                                         <span>Female</span>
                                         <input type="radio" name="gender" value="female">
                                         <span>Male</span>
                                         <input type="radio" name="gender" value="male">
-                                    </label>
+                                    </fieldset>
                                 </div>
                                 <label>
                                     <span>Grade:</span>
@@ -135,11 +133,11 @@
                                 </div>
                                 <div class="column2">
                                     <input type="radio" name="position" value="medium">
-                                    <span>Medium</span>
+                                    <label>Medium</label>
                                     <input type="radio" name="school" value="large">
-                                    <span>Large</span>
+                                    <label>Large</label>
                                     <input type="radio" name="school" value="extra-large">
-                                    <span>Extra-Large</span>                                 
+                                    <label>Extra-Large</label>                                 
                                 </div>
                             </div>
                             <div class="agreement">
@@ -148,7 +146,7 @@
                                     By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I read the cancellation policy and agree to its terms.</p>
                                 <div class="legal">
                                     <label>
-                                        <span>Parent/Guardian Signature:</span>
+                                        <label>Parent/Guardian Signature:</label>
                                         <input type="text" name="signature" required>
                                         <span>Date(mm/dd/yyyy):</span>
                                         <input type="date" name="date" required>
