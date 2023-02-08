@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/imagenes/Logo_mighty_ducks-01.png" type="image/x-icon">
+        <!-- <link rel="stylesheet" href="css/styles_1.css"> -->
+        <!-- <link rel="stylesheet" href="css/styles_2.css">  -->
+        <link rel="stylesheet" href="css/styles_3.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="titulo_header">Mighty Ducks Hockey League</h1> 
+            </header>
+        <div class="contenedor">
+            <div class="barra_de_nav">
+                <nav class="nav justify-content-center">
+                    <a class="nav-link" id="index" href="index.html">Home</a>
+                    <a class="nav-link" id="about"  href="about.html">About MDHL</a>
+                    <a class="nav-link" id="game_info" href="game_info.html">Game info</a>
+                    <a class="nav-link" id="rules" href="rules.html">Rules</a>
+                    <a class="nav-link" id="contact1" style="text-decoration: none" href="#">Contact</a>
+                </nav>
+            </div>
+            <main>
+                <section>
+                    <div class="postheader">
+                        <div class="about">
+                            <h2> Registration Form</h2>
+                        </div>
+                        <div>
+                            <img src="assets/imagenes/Logo_mighty_ducks-01.png" id="logo" alt="logo">
+                        </div>
+                    </div>
+                    <div id="info">
+                        <form action="showdata.html" method="GET">
+                            <div class="personal_information">
+                                <div class="one">
+                                    <label>
+                                        <span>Player's first name:</span>
+                                        <input type="text" name="name" required>
+                                        <span>Last Name:</span>
+                                        <input type="text" name="last_name" required>
+                                    </label>
+                                </div>
+                                <label>
+                                    <span>Street adress:</span>
+                                    <input type="text" name="adress" required>
+                                </label>
+                                <div class="two">
+                                    <label>
+                                        <span>City:</span>
+                                        <input type="text" name="city">
+                                        <span>Zip code</span>
+                                        <input type="number" name="Zcode" required>
+                                    </label>  
+                                </div>    
+                                <div class="three">
+                                    <label>
+                                        <span>Birth Date(mm/dd/yyyy):</span>
+                                        <input type="date" name="birth_date" required>
+                                    </label>
+                                    <label>
+                                        <span>Gender:</span>
+                                        <span>Female</span>
+                                        <input type="radio" name="gender" value="female">
+                                        <span>Male</span>
+                                        <input type="radio" name="gender" value="male">
+                                    </label>
+                                </div>
+                                <label>
+                                    <span>Grade:</span>
+                                    <input type="radio" name="grade" value="presc">
+                                    <span>Pre-school</span>
+                                    <input type="radio" name="grade" value="first">
+                                    <span>1st</span>                                
+                                    <input type="radio" name="grade" value="second">
+                                    <span>2nd</span>  
+                                    <input type="radio" name="grade" value="third">
+                                    <span>3rd</span>  
+                                    <input type="radio" name="grade" value="fourth">
+                                    <span>4th</span>  
+                                    <input type="radio" name="grade" value="five">
+                                    <span>5th</span>  
+                                </label>
+                            </div>
+                            <div class="schools">
+                                <h4>Which elementary school do you live near?</h4>
+                                <p>Closest school:</p>
+                                <div class="column1">
+                                    <input type="radio" name="school" value="AJ Katzenmaier">
+                                    <span>AJ Katzenmaier</span>
+                                    <input type="radio" name="school" value="Greenbay">
+                                    <span>Greenbay</span>                                
+                                    <input type="radio" name="school" value="Howard">
+                                    <span>Howard A Yeager</span>
+                                </div>
+                                <div class="column2">
+                                    <input type="radio" name="school" value="Marjorie">
+                                    <span>Marjorie P Hart</span>
+                                    <input type="radio" name="school" value="Greenbay">
+                                    <span>North Elementary</span>                                
+                                    <input type="radio" name="school" value="Howard">
+                                    <span>South Elementary</span>
+                                </div>
+                            </div>
+                            <div class="schools">
+                                <h4>What position(s) do you normally play? (check all that apply)</h4>
+                                <div class="column1">
+                                    <input type="checkbox" name="position" value="Forward">
+                                    <span>Forward</span>
+                                    <input type="checkbox" name="position" value="Defense">
+                                    <span>Defense</span>                                
+                                </div>
+                                <div class="column2">
+                                    <input type="checkbox" name="position" value="midfield">
+                                    <span>Midfield</span>
+                                    <input type="checkbox" name="school" value="Goalkeeper">
+                                    <span>Goalkeeper</span>                                
+                                </div>
+                            </div>
+                            <div class="Uniform">
+                                <h4>Uniform Size:</h4>
+                                <div class="column1">
+                                    <input type="radio" name="position" value="Youth_Small">
+                                    <span>Youth Small</span>
+                                    <input type="radio" name="position" value="Youth_Medium">
+                                    <span>Youth Medium</span>
+                                    <input type="radio" name="position" value="Youth_Large">
+                                    <span>Youth Large</span>
+                                    <input type="radio" name="position" value="Small">
+                                    <span>Small</span>                                 
+                                </div>
+                                <div class="column2">
+                                    <input type="radio" name="position" value="medium">
+                                    <span>Medium</span>
+                                    <input type="radio" name="school" value="large">
+                                    <span>Large</span>
+                                    <input type="radio" name="school" value="extra-large">
+                                    <span>Extra-Large</span>                                 
+                                </div>
+                            </div>
+                            <div class="agreement">
+                                <h4>Permission to Play</h4>
+                                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant participation in the program and/or being transported to or from MDHL sponsored activities which transportation.
+                                    By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I read the cancellation policy and agree to its terms.</p>
+                                <div class="legal">
+                                    <label>
+                                        <span>Parent/Guardian Signature:</span>
+                                        <input type="text" name="signature" required>
+                                        <span>Date(mm/dd/yyyy):</span>
+                                        <input type="date" name="date" required>
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>

@@ -170,6 +170,10 @@ iframe {
 .barra_de_nav_responsive {
     display: none;
 }
+button a {
+    text-decoration: none;
+    color: #791a1a;
+}
 /* -------media query------ */
 
 @media (max-width: 740px) {
@@ -240,7 +244,6 @@ iframe {
         margin-bottom: 2vw;
     }
     
-    }
+}
 
-                    
 
